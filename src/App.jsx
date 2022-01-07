@@ -1,4 +1,4 @@
-import ExpenseList from "./components/ExpenseList";
+import ExpenseList from "./components/Expenses/ExpenseList";
 
 function App() {
   const expenses = [
@@ -19,6 +19,12 @@ function App() {
       title: "Rent",
       amount: 144364.06,
       date: new Date(2021, 1, 23),
+    },
+    {
+      id: 4,
+      title: "Dog Food",
+      amount: 120.23,
+      date: new Date(2020, 11, 15),
     },
   ];
   return (
